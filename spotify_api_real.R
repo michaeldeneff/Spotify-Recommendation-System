@@ -6,8 +6,8 @@ library(dplyr)
 library(knitr)
 library(sqldf)
 
-Sys.setenv(SPOTIFY_CLIENT_ID = '827d1bba45e741f3b8ca6bde69b8ce4c')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '63bd8b4312fe474dbe3025bddf96031d')
+Sys.setenv(SPOTIFY_CLIENT_ID = 'xxxxxxxxxxxx')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = 'xxxxxxxxxxxx')
 access_token <- get_spotify_access_token()
 
 
